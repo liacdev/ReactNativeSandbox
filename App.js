@@ -6,15 +6,17 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>All hail the Rotten Potato!</Text>
+      <Text>This is where the magic starts.</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  // Provides the styles for above
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "tan",
     alignItems: "center",
     justifyContent: "center",
   },
